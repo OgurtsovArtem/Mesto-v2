@@ -1,5 +1,4 @@
-'use strict'
-class FormValidator {
+export class FormValidator {
   constructor(words, formElement, popupButton) {
     this.words = words;
     this.formElement = formElement;
@@ -22,7 +21,7 @@ class FormValidator {
     if (input.validity.tooShort === true) {
       inputId += '-error';
       if (inputId === errorId) {
-        input.nextElementSibling.textContent = words.validationLenght;
+        input.nextElementSibling.textContent = this.words.validationLenght;
       }
       return false;
     }
@@ -30,14 +29,14 @@ class FormValidator {
 
       inputId += '-error';
       if (inputId === errorId) {
-        input.nextElementSibling.textContent = words.validationNull;
+        input.nextElementSibling.textContent = this.words.validationNull;
       }
       return false;
     };
     if (input.validity.typeMismatch === true) {
       inputId += '-error';
       if (inputId === errorId) {
-        input.nextElementSibling.textContent = words.validationLink;
+        input.nextElementSibling.textContent = this.words.validationLink;
       }
       return false;
     }

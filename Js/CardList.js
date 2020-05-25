@@ -1,5 +1,4 @@
-'use strict'
-class CardList {
+export class CardList {
   constructor(container, classCreate,api) {
     this.container = container;
     this.classCreate = classCreate;
@@ -27,8 +26,3 @@ class CardList {
   }
 
 }
-// Передать сюда id который был взят при переборе карт, сравнить этот id  с id автора карточки , если верно передать в создания корзины, иначе проверять дальше.
-
-// if (obj.ovner.name = obj.name) {
-
-// }

@@ -1,6 +1,5 @@
 // Наверное лучше сделать класс submith для каждой формы , а то что то не красивый он какой-то, ведро какое-то переменных.
-'use strict'
-class PopupSubmith {
+export class PopupSubmith {
   constructor(formCard, userInfo, formEdit, cardList, idCreator, api, popupUser) {
     this.formCard = formCard;
     this.userInfo = userInfo;

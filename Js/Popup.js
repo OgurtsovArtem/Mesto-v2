@@ -1,5 +1,4 @@
-'use strict'
-class Popup {
+export class Popup {
   constructor(element, buttonOpen) {
     this.element = element;
     this.buttonOpen = buttonOpen;
