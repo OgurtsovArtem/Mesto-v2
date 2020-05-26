@@ -1,2 +1,2 @@
-import * as s from "../pages/index.css";
-import * as script from '../Js/script.js';
+import * as style from "./pages/index.css";
+import * as script from './Js/script.js';
