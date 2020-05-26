@@ -1,7 +1,7 @@
 {
   "name": "mesto-v2",
   "version": "1.0.0",
-  "description": "Project Yandex Practicum",
+  "description": "Project Yandex Praktikum",
   "main": "./src/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
