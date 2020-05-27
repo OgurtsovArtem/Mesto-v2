@@ -20,8 +20,7 @@
   "homepage": "https://github.com/OgurtsovArtem/Mesto-v2#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "core-js": "^3.4.1",
-    "jquery": "^3.5.1"
+    "core-js": "^3.4.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
