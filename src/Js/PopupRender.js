@@ -1,5 +1,4 @@
-'use strict'
-class PopupRender {
+export class PopupRender {
   constructor(formCard, userInfo, validationCard, validationEdit) {
     this.formCard = formCard;
     this.userInfo = userInfo;

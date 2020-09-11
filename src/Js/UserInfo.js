@@ -1,6 +1,4 @@
-'use strict'
-
-class UserInfo {
+export class UserInfo {
   constructor(formEdit) {
     this.formEdit = formEdit;
     this.name = this.formEdit.elements.name;

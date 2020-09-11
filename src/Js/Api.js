@@ -1,6 +1,4 @@
-
-'use strict'
-class Api {
+export class Api {
     constructor(options) {
         this.options = options;
       // тело конструктора
@@ -95,7 +93,7 @@ class Api {
 
 
 }
-const api = new Api({
+export const api = new Api({
   baseUrl: 'https://praktikum.tk/cohort10',
   headers: {
     authorization: 'b2e45f82-b0bc-47b6-843e-5aa34606d315',

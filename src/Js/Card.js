@@ -1,5 +1,4 @@
-'use strict'
-class Card {
+export class Card {
   constructor(api) {
     this.like = this.like.bind(this);
     this.remove = this.remove.bind(this);
